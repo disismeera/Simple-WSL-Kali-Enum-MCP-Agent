@@ -1,4 +1,4 @@
-# WSL Kali Pentest Agent
+# Simple Enum WSL Kali Pentest Agent
 
 A Python-based utility for running penetration testing tools from Kali Linux through Windows Subsystem for Linux (WSL).
 
