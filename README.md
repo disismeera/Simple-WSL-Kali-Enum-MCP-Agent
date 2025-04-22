@@ -43,7 +43,7 @@ results = nmap_scan("192.168.1.1", "-sV -p 1-1000")
 print(results)
 
 # Directory enumeration with Gobuster
-dirs = gobuster_scan("http://example.com", "/usr/share/wordlists/dirb/common.txt")
+dirs = gobuster_scan("http://example.com", "path_of_the_wordlist/common.txt")
 print(dirs)
 
 # Web server analysis with Nikto
